@@ -19,6 +19,6 @@ public class PrintFromTo10Example {
             }
             i++;
         }
-        System.out.println("1부터 100까지 3의 배수의 합 (while): " + sum2);
+        System.out.println("1부터 100까지 3의 배수의 합: " + sum2);
     }
 }
