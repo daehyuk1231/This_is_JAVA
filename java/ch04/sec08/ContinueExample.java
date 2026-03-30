@@ -8,5 +8,15 @@ public class ContinueExample {
             }
             System.out.println(i);
         }
+
+        int j = 1;
+        while (j <= 10) {
+            if (j % 2 != 0) {
+                j++;
+                continue;
+            }
+            System.out.println(j);
+            j++;
+        }
     }
 }
