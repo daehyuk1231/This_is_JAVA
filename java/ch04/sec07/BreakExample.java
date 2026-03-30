@@ -6,7 +6,7 @@ public class BreakExample {
             int num = (int) (Math.random() * 6) + 1;
             System.out.println(num);
 
-            if (num == 6) {
+            if (num == 3) {
                 break;
             }
         }
