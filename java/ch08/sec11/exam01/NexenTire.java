@@ -1,9 +1,8 @@
 package ch08.sec11.exam01;
 
 public class NexenTire implements Tire {
-    //추상 메소드 재정의
 	@Override
 	public void roll() {
-		System.out.println("한국 타이어가 굴러갑니다.");
+		System.out.println("넥센 타이어가 굴러갑니다.");
 	}
 }
