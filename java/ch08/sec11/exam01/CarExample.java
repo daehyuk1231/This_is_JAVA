@@ -10,7 +10,8 @@ public class CarExample {
 		
 		//타이어 객체 교체
 		myCar.tire1 = new KumhoTire();
-		myCar.tire2 = new KumhoTire();
+		myCar.tire2 = new HankookTire();
+		myCar.tire3 = new NexenTire();
 		
 		//run 메소드 실행(다형성: 실행 결과가 다름)
 		myCar.run();
